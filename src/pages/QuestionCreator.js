@@ -26,7 +26,7 @@ const QuestionCreator=()=>{
         console.log(mychoices)
     }
     function Add(){
-        test.push({question:values.quiz,choices:mychoices})
+        test.push({question:values.quiz,choices:[]})
        }
        console.log(test)
     return (
