@@ -1,7 +1,10 @@
 import React, { useState,useEffect } from "react";
+import image from '../images/write1.jpg'
+import image2 from '../images/write2.jpg'
+import image3 from '../images/write3.jpg'
 const Banner =()=>{
-    const images=[{name:"image1",id:1,imgurl:"/images/write1.jpg"},{name:"image2",id:2,imgurl:"/images/write2.jpg"},
-    {name:"image3",id:3,imgurl:"/images/write3.jpg"}]
+    const images=[{name:"image1",id:1,imgurl:image},{name:"image2",id:2,imgurl:image2},
+    {name:"image3",id:3,imgurl:image3}]
     const [index,setIndex]=useState(0)
     function autorun (){
     if (index ===images.length-1) {
